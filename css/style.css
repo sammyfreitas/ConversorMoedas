@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 5px;
+}
+
+h2 {
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input,
+select{
+	width: 150px;
+    height: 30px;
+	font-size: 15px;
+	background-color:rgb(31, 31, 31);
+	border:none;
+	color:white;
+	margin:3px;	
+}
+
+button {
+	width: 150px;
+    height: 30px;
+	font-size: 15px;
+	background-color:rgb(31, 31, 31);
+	border:none;
+	color:white;
+	margin:3px;
+}
+
+button:hover {
+  background-color:black;
+  color: white;
+}
+
+.degrade{
+	background-image: linear-gradient(45deg, rgb(127,79,190), rgb(79,42,165));
+	height:92vh;
+	color: white;
+	font-family:Comic Sans Ms;
+	text-align:center;
+}	
+
+.container{
+  max-width: 500px;
+  margin: 0 auto;
+  text-align:center;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.outer-container {
+	width:500px;
+	margin: 0 auto;
+	text-align:center;
+    background: rgb(31, 31, 31); /* Cor de fundo */
+    padding: 20px; /* Espaçamento interno */
+	border-radius: 10px; /* Valor do raio do arredondamento */
+    overflow: hidden; /* Garante que as bordas arredondadas se apliquem corretamente */
+}
+
+.conversorMoedas{
+	position:absolute;
+	background-color: rgb(0,0,0.8);
+	top: 50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	border-radius:15px;
+	padding:15px;
+}
+
+.result-container{
+	margin-top: 10px;
+	/*background-color: #f2f2f2;*/
+	padding: 0px;
+	border-radius: 5px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align:center !important;
+}
+
+footer {
+    background: #2c2045;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+a:visited {
+    color: darkgrey;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.social-icons a:hover {
+    color: green; /* Ou a cor desejada para o hover */
+}
